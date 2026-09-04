@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Excursion Details"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:padding="12dp" />
+
+        <EditText
+            android:id="@+id/editExcursionTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:hint="Excursion Title"
+            android:inputType="textCapWords"
+            android:layout_marginTop="16dp" />
+
+        <EditText
+            android:id="@+id/editExcursionDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:hint="Excursion Date (MM/dd/yyyy)"
+            android:focusable="false"
+            android:clickable="true"
+            android:layout_marginTop="12dp" />
+
+        <Button
+            android:id="@+id/buttonSaveExcursion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Save Excursion"
+            android:layout_marginTop="24dp" />
+
+        <Button
+            android:id="@+id/buttonSetExcursionAlert"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Set Excursion Alert"
+            android:layout_marginTop="12dp" />
+
+        <Button
+            android:id="@+id/buttonDeleteExcursion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Delete Excursion"
+            android:layout_marginTop="12dp" />
+
+    </LinearLayout>
+
+</ScrollView>
