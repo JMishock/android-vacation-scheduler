@@ -1,13 +1,34 @@
-# D308 Vacation Scheduler
+# Android Vacation Scheduler
 
-## Purpose
+An Android vacation and excursion management application built with Java, Room, and SQLite. The application supports CRUD operations, relational data management, date validation, sharing, scheduled notifications, and local persistence.
 
-The D308 Vacation Scheduler is an Android mobile application designed to help users create and manage vacations and their associated excursions. The application stores vacation and excursion information in a local Room database and provides features for creating, editing, deleting, viewing, sharing, and scheduling alerts for vacation and excursion information.
+## Key Features
+
+- Create, view, update, and delete vacations
+- Create and manage excursions associated with each vacation
+- Validate vacation start and end dates
+- Validate excursion dates against the associated vacation
+- Prevent deletion of vacations that still contain excursions
+- Schedule notifications for vacation start and end dates
+- Schedule notifications for excursion dates
+- Share vacation details using Android sharing options
+- Store application data locally using Room and SQLite
+- Maintain parent-child relationships between vacations and excursions
+
+## Technologies
+
+- Java
+- Android SDK
+- Android Studio
+- Room Persistence Library
+- SQLite
+- Gradle
+- Git / GitHub
 
 ## Application Instructions
 
 ### Home Screen
-1. Launch the D308 Vacation Scheduler application.
+1. Launch the Android Vacation Scheduler application.
 2. Select **View Vacations** to open the Vacation List.
 
 ### Vacation List
@@ -66,10 +87,12 @@ The D308 Vacation Scheduler is an Android mobile application designed to help us
 - Target SDK: API 37
 - Compile SDK: API 37
 
-The application was developed to target Android API 37.
+## Deployment
 
-## Git Repository
+A signed APK and deployment page are available in the companion repository:
 
-WGU GitLab Repository:
+https://github.com/JMishock/vacation-scheduler-d424
 
-https://gitlab.com/wgu-gitlab-environment/student-repos/jmishoc/d308-mobile-application-development-android
+## Project Highlights
+
+This project demonstrates Android application development with persistent relational data, input validation, CRUD workflows, scheduled notifications, application sharing, and production APK generation.
